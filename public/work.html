@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portolio Astrid</title>
+
+    
+    <link rel="stylesheet" href="css/workStyle.css"> 
+</head>
+
+<body>
+
+<div class="topImage">
+<nav id="navTarg">
+    <ul>
+            
+        <li class="childOne"> <a href="index.html" id="textTarg"> HOMEPAGE</a> </li>
+        
+        <li class="childTwo">  <a href="work.html"> WORKS  </a></li> 
+
+        <li class="childThree"> <a href="aboutMe.html"> ABOUT ME </a></li>
+        
+    </ul>
+</nav>
+
+<h1 class="twoD" id="propos">2D </h1> 
+</div>
+
+
+
+<div class="Section1gridAndText"> 
+
+    <div class="seriePaysageText">
+        <div>
+            <h1>Série De Paysages</h1> 
+            <h2> Série de peintures numériques.</h2>
+        </div>   
+ <!--
+        <form class="formulaire">
+            <label for="fileselect"> Ajouter image: </label>
+            <input 
+                type="file" 
+                name="art" 
+                id="imagePaysageSection"
+                accept="image/png, image/jpeg, image/gif">
+            
+        </form>
+ -->
+    </div>
+
+   
+
+    <div class="seriePaysage" id="PaysageSection">
+        
+<!--Quand on met image 1 ou 3 en premier ptite suprise là ptit -->
+            <img src="ressources\Images\works\seriePaysage\img2.jpg"> 
+            <img src="ressources\Images\works\seriePaysage\img7.jpg">
+            <img src="ressources\Images\works\seriePaysage\img4.jpg">
+
+            <img src="ressources\Images\works\seriePaysage\img3.jpg">
+            <img src="ressources\Images\works\seriePaysage\img8.jpg" >
+            <img src="ressources\Images\works\seriePaysage\img6.jpg">
+
+            <img src="ressources\Images\works\seriePaysage\img5.jpg" >
+            <img src="ressources\Images\works\seriePaysage\img9.jpg" >
+              
+    </div>
+
+
+</div>
+
+<!-- 
+<div class="Section2gridAndText"> 
+
+    <div class="BandeDessineeText">
+        <div>
+            <h1>Bande dessinée </h1> 
+            <p>
+                Dans le cadre d'un cours j’ai réalisé une bande dessinée intitulée 
+                <span class="bold">Une après-midi à la campagne.</span> Ce fut une réalisation très 
+                spontanée et très expérimentale. 
+                À travers les différents récitatifs, 
+                un petit poème rythme 
+                la narration et offre notamment 
+                une description sensorielle du paysage.
+            </p>
+        </div>   
+
+        <form class="nop">
+            <label for="fileselect"> Ajouter image: </label>
+            <input 
+                type="file" 
+                name="art" 
+                id="imagePaysageSection"
+                accept="image/png, image/jpeg, image/gif">
+            
+        </form>
+
+    </div>
+    <div class="bande-dessinee" id="comicSection">
+
+        <img src="ressources\Images\works\seriePaysage\img2.jpg"> 
+        <img src="ressources\Images\works\seriePaysage\img7.jpg">
+        <img src="ressources\Images\works\seriePaysage\img4.jpg">
+
+
+</div>
+</div>
+ -->
+ 
+<div class="Section3gridAndText"> 
+
+    <div class="BandeDessineeText">
+        <div>
+            <h1>Trois peintures numériques </h1> 
+            <p>Réalisation faite sur le logiciel Heavy Paint.</p>
+        </div>   
+ <!--
+        <form class="nop">
+            <label for="fileselect"> Ajouter image: </label>
+            <input 
+                type="file" 
+                name="art" 
+                id="imagePaysageSection"
+                accept="image/png, image/jpeg, image/gif">
+            
+        </form>
+ -->
+
+    </div>
+    <div class="bande-dessinee" id="comicSection">
+
+        <img src="ressources\Images\works\seriePaysage\gif1.gif"> 
+        <img src="ressources\Images\works\seriePaysage\img1.jpg">
+        <img src="ressources\Images\works\seriePaysage\gif2.gif">
+        <img src="ressources\Images\works\seriePaysage\gif2.gif">
+
+
+
+</div>
+
+<script src="scripts/aboutMe.js"></script>
+<script src="scripts/work.js"></script>
+<script type="module">
+
+    // Import the functions you need from the SDKs you need
+  
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+  
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
+  
+    // TODO: Add SDKs for Firebase products that you want to use
+  
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+  
+    // Your web app's Firebase configuration
+  
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  
+    const firebaseConfig = {
+  
+      apiKey: "AIzaSyArT3jgJN4WbnVAgh0g1ORTW8WlKfUkEmU",
+  
+      authDomain: "porfolio-astriddooh.firebaseapp.com",
+  
+      projectId: "porfolio-astriddooh",
+  
+      storageBucket: "porfolio-astriddooh.appspot.com",
+  
+      messagingSenderId: "1045412836294",
+  
+      appId: "1:1045412836294:web:9cdf532e5786d84e4238c7",
+  
+      measurementId: "G-1MLBKHQ8S1"
+  
+    };
+  
+  
+    // Initialize Firebase
+  
+    const app = initializeApp(firebaseConfig);
+  
+    const analytics = getAnalytics(app);
+  
+  </script>
+</body>
+</html>

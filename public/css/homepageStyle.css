@@ -1,0 +1,459 @@
+body
+{
+    background-image: url("../ressources/Images/background.jpg") ;
+    max-height: 100%;
+    width: 98.5%;
+    background-size: cover;
+    min-height: 97vh;
+    margin: 0%;
+    border: 10px solid rgb(255, 205, 0);
+}
+
+@keyframes rotation {
+    from {
+      transform-origin: center;
+      transform: rotate(0deg);
+    }
+    to {
+      transform-origin: center;
+      transform: rotate(359deg);
+    }
+  }
+/** https://codepen.io/dmwhy/pen/oLMBEv **/
+@keyframes glitch{
+3%{text-shadow:7px 7px 0px rgb(141, 51, 51);}
+6%{text-shadow:-9px 4px 0px rgb(30, 30, 107);transform:translate(4px,-10px) skewX(3240deg);}
+7%{text-shadow:3px -4px 0px rgb(19, 78, 19);}
+9%{text-shadow:0px 0px 3px rgba(255, 255, 255, 0.774);transform:translate(0px,0px) skewX(0deg);}
+2% , 54%{transform:translateX(0px) skew(0deg);}
+55%{transform:translate(-2px,6px) skew(-5530deg);}
+56%{text-shadow:0px 0px 3px rgb(234, 236, 96);transform:translate(0px,0px) skew(0deg);}
+57%{text-shadow:7px 7px 0px red;transform:translate(4px,-10px) skew(-70deg);}
+58%{text-shadow:0px 0px 3px rgb(234, 236, 96);transform:translate(0px,0px) skew(0deg);}
+62%{text-shadow:3px -4px 0px green;transform:translate(0px,20px) skew(0deg);}
+63%{text-shadow:0px 0px 3px rgb(234, 236, 96);transform:translate(4px,-2px) skew(0deg);}
+64%{transform:translate(1px,3px); skew(-230deg);}
+65%{transform:translate(-7px,2px); skew(120deg);}
+66%{transform:translate(0px,0px) skew(0deg);}
+}
+
+.rotate 
+{
+    position: absolute;
+    animation: rotation 8s infinite linear;
+
+}
+
+.smiley:hover,.flower:hover
+{
+transform: rotate(8deg);
+filter: invert(1) contrast(120%) saturate(200%);
+}
+
+.poster:hover,.oplayEtOmega:hover,.fire:hover,.etiquette:hover,.welcomeContainer:hover
+{
+transform: rotate(8deg);
+filter: invert(0.8);
+}
+
+.cube3D:hover
+{
+  transform: rotate(8deg);
+  filter: invert(0.4); 
+}
+
+.bombermanContainer:hover
+{
+  transform: rotate(8deg);
+  filter: invert(1) contrast(150%) saturate(150%);
+}
+
+
+.hand:hover
+{
+  transform: rotate(-90deg);
+  filter: hue-rotate(-55deg)  invert(0.1);
+}
+
+.glitch-text
+{
+  animation:glitch 2s infinite;
+}
+
+  @font-face 
+{
+  font-family: "NewAwky";
+  src: url("../ressources/Police_ecriture/NewAwky.otf") format("opentype");  
+}
+
+@font-face 
+{
+  font-family: "Orbitron";
+  src: url("../ressources/Police_ecriture/Orbitron-Regular.ttf") format("truetype");
+
+}
+
+@font-face 
+{
+  font-family: "MontserratExtraBold";
+  src: url("../ressources/Police_ecriture/Montserrat-ExtraBold.ttf") format("truetype");
+
+}
+
+@font-face 
+{
+  font-family: "NexaHeavy";
+  src: url("../ressources/Police_ecriture/Nexa-Heavy.ttf") format("truetype");
+
+}
+
+
+h1
+{
+  font-family: "MontserratExtraBold" ;
+
+}
+
+h2
+{
+  font-family: "NexaHeavy" ;
+ 
+}
+
+h3
+{
+  font-family: "Orbitron" ;
+
+}
+
+
+
+ul 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: "MontserratExtraBold" ;
+    font-weight: bold;
+    font-size: 70%;
+
+}
+
+.box1
+{
+  position: absolute;
+  top: 5%;
+  left: 7%;
+}
+
+.box2
+{
+  position: absolute;
+  top: 5%;
+  right: 7%;
+}
+
+.text1
+{
+    position: relative;
+    left: 10%;
+}
+
+.text2
+{
+  position: relative;
+  left: -15%;
+}
+
+.contenu
+{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 5%;
+  left: 45%;
+  
+}
+
+.je
+{
+
+  position: relative; 
+  margin-bottom: 15%;
+  left: 5%;
+  top: -8px;
+
+
+}
+
+.artist
+{
+  position: relative; 
+  left: 5%;
+  top: 31px;
+}
+
+.Nom
+{
+  position: fixed; 
+  top: 31px;
+  font-size: 300%;
+}
+
+h1,h2,h3
+{
+  margin: 2%;
+  white-space: nowrap;
+}
+
+h1
+{
+  text-transform: capitalize;  
+}
+h2
+{
+  color: grey;
+}
+
+.ball
+{
+  position: absolute;
+  top: 45%;
+  left: 51%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 35vh;
+  
+}
+
+.taxiDriver
+{
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+
+.welcomeContainer
+{
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  width: 40vh;
+ }
+
+.welcome
+{
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain
+}
+
+.grphic3dAnd2d
+{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 20%;
+  left: 15%;
+
+}
+.graphic3d,.graphic2d
+{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.graphic3d
+{
+  margin-bottom: 50px;
+}
+
+
+.Text
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+
+.threeD,.twoD,.title1,.title2
+{
+  margin-bottom: -5px;
+}
+
+.title1
+{
+  font-family: "NewAwky";
+  font-weight: lighter;
+
+}
+
+.threeD,.twoD
+{
+  font-size: 35px;
+  margin-top: -5px;
+
+}
+.cube3D, .copyright
+{
+  align-self: center;
+}
+
+
+
+
+.fire2d
+{
+  position: absolute;
+  top: 55%;
+  left: 32%;
+  width: 23vh;
+}
+
+.bombermanContainer
+{
+  position: absolute;
+  top: 35%;
+  left: 2%;
+  width: 23vh;
+ 
+}
+
+.fire 
+{
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain;
+}
+
+.oplayEtOmega
+{
+  position: absolute;
+  top: 83%;
+  left: 50%;
+ 
+  transform: translateX(-50%) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.omega
+{
+  position: absolute;
+  bottom: 15%;
+  left: 72%;  
+}
+
+
+
+
+
+.windowConstruction
+{
+  position: absolute;
+  top: 55%;
+  left: 72%;
+
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+
+}
+
+.windowsGifContainer
+{
+  width: 30vh;
+}
+
+.windowsGif
+{
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+
+.omega
+{
+  position: absolute;
+  bottom: 15%;
+  left: 72%;  
+}
+
+.starContainer
+{
+  position: absolute;
+  width: 15vh;
+  bottom: 75%;
+  left: 67%;  
+
+}
+
+.star
+{
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+
+
+.smileyContainer
+{
+  position: absolute;
+  width: 15vh;
+  bottom: 30%;
+  right: 80%;  
+  transform: rotate(20deg);
+  margin-right: 18px;
+
+}
+
+.smiley
+{
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain;
+
+}
+
+.windowConstruction
+{
+  font-family: "MontserratExtraBold"; 
+  margin-top: -5px;
+}
+.etiquetteContainer
+{
+  position: absolute;
+  top: 84%;
+  left: 94.7%;
+  width: 9vh;
+}
+
+.etiquette
+{
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain;
+}
+.copyright
+{
+  position: absolute;
+  top: 95%;
+  left: 68%;
+  margin-left: 50px ;
+  font-size: 9px;
+  font-family: "Orbitron";
+
+}
+
+
+
+
+
+
