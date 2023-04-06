@@ -1,5 +1,7 @@
 # portfolioForArtist 
 Voici un projet personelle de portfolio que j'ai réalisé pour l'artiste 2D/3D Astrid Dooh.
+Le site est en cours de développement.
+Voici son URL: https://porfolio-astriddooh.web.app/
 
 ## Description
 Je me suis donné pour objectif de réaliser en peu de temps pour la première fois un site web. J'ai réalisé le code HTML 5 CSS 3 et également javascript. 
