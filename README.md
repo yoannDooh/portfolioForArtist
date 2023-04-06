@@ -11,7 +11,7 @@ En parallèle j'ai réfléchis à un code php que je n'ai pas eu le temps d'impl
 ## Fonctionnalités
 J'ai programmé deux fonctionnalités en javascript: 
 1. Une fonction permettant d'appliquer un effet de "glitch" (trouvé et quelque peu modifié sur CODEPEN) aléatoirement sur un texte donnée et un nombre de lettre donnée. Les lettres se voient appliqué l'effet avant de changer de police, et réiterer le processus autant de fois que voulu.  
-2. (pas terminé) Une fonction permettant de crée un grillage d'images de tailles différents où l'espaces entres les images restent toujours le même.  
+2. (pas terminé) Une fonction permettant de crée un grillage d'images de tailles différents où l'espaces entres les images restent toujours le même. La difficulté vient du fait que CSS décale déjà les images les plus petites d'une ligne de manière à ce que tous les hauts d'image d'une ligne soit aligné. Cela crée de nombreuses possibilités ou il faut ou non décaler l'image. 
 
 
 
