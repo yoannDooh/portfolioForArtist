@@ -19,4 +19,4 @@ Le projet n'étant pas fini puisque limite par le temps il reste des fonctionnal
 1. Il manque une partie back-end en PHP permettant à l'admin (Astrid Dooh) de pouvoir facilement ajouter des images sur la page works.
 Le but est de de placer un bouton ou un espace pour drop des fichiers images dans les différents sections, elle peut alors choisir à quelle ligne et en quelle position sur la ligne l'image doit être positionnée. Ce bouton ne serait donc visible que par l'admin et pour être admin il faudrait avoir l'adresse IP correspondante à celle d'Astrid Dooh, puis il faudrait remplir un mot de passe afin de confirmer l'accès aux droits d'admin.
 
-2. Le site n'est pas encore responsif
+2. Je dois également rendre le site responsive et donc reflechir à comment la page principal pourrait être affiché sur mobile puisque le but de cette page est d'occuper un maximum d'espace a l'horizontale ce qui est incompatible en terme de design avec le support mobile. 
